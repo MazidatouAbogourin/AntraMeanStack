@@ -1,0 +1,146 @@
+
+@media only screen and (min-width: 1000px) {
+.container{
+    width: 50%;
+    margin: auto;
+   
+}
+h2{
+    text-align: center;
+}
+
+
+input{
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px gray solid;
+
+    
+    margin-left: 0px;
+}
+
+input:focus{
+   /* box-shadow: px 3px 3px rgb(26, 66, 244); */
+    outline-color: rgb(26, 66, 244) ;
+
+}
+input[type='submit'], input[type='reset'], button{
+    padding: 10px;
+} 
+
+.container_chk_p{
+    
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    margin-top: 10px;
+}
+.container_chk_p p{
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.container_chk_p p a{
+    text-decoration: none;
+    color: rgb(100, 100, 250);
+}
+
+.checkbox_input{
+   flex-shrink: 0;
+   flex-basis: 100px;
+  
+
+
+}
+
+.small-button{
+    padding: 1px 3px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.full-length{
+    width: 90%;
+
+}
+
+.half-length{
+    width: 43%;
+    margin-right: 15px;
+}
+
+.big-btn{
+    width: 200px;
+    padding: 5px;
+}
+
+#blue{
+    color: white;
+    background-color: blue;
+}
+
+#green{
+    color: white;
+    background-color: green;
+    margin-left: 40px;
+}
+}
+@media  only screen and (max-width: 1000px) {
+    .container{
+        width: 50%;
+        margin: auto;
+       
+    }
+    h2{
+        text-align: center;
+    }
+    
+    input{
+        padding: 8px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px gray solid;
+        width: 90%;
+    
+        
+        margin-left: 0px;
+    }
+    .container_chk_p{
+    
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between;
+        align-items:start; */
+        margin-top: 10px;
+    }
+    .container_chk_p p{
+        margin-top: 0px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .container_chk_p p a{
+        text-decoration: none;
+    }
+    .checkbox_input input{
+        width: 15px;
+    }
+    
+    
+    
+    #blue{
+        color: white;
+        background-color: blue;
+    }
+    
+    #green{
+        color: white;
+        background-color: green;
+        
+    }
+    
+}
